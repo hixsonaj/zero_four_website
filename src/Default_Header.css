@@ -1,4 +1,4 @@
-ul{
+.Header_Navigation{
   float: right;
 }
 
@@ -9,6 +9,7 @@ li{
 
 .Header_Title{
   display: inline-block;
+  color: black
 }
 
 h3{
@@ -26,7 +27,7 @@ h3:hover{
 
 }
 
-button{
+.Header_Navigation_Toggle_Button{
   background-color: lightgray;
   border: none;
   font-size: large;
