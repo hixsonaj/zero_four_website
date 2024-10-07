@@ -1,7 +1,21 @@
 Footer{
   text-align: center;
+  margin-top: 32px;
 }
 
 .Footer_Title{
   color: black;
+}
+
+.Footer_Navigation{
+  padding: 0;
+}
+
+.Footer_Navigation h3{
+  color: black; 
+  font-weight: normal;
+}
+  
+.Footer_Navigation h3:hover{
+  text-decoration: underline;
 }

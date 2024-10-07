@@ -12,12 +12,12 @@ li{
   color: black
 }
 
-h3{
+header h3{
   color: black; 
   font-weight: normal;
 }
 
-h3:hover{
+header h3:hover{
   text-decoration: underline;
 }
 
