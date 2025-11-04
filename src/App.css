@@ -7,3 +7,12 @@ body{
   padding: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.link{
+  color: black; 
+  font-weight: normal;
+}
+
+.link:hover{
+  text-decoration: underline;
+}

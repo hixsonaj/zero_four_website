@@ -1,8 +1,15 @@
-.project_header_contianer {
+.project_description_contianer {
   margin-top: 48px;
   text-align: center;
 }
 
-.project_header_contianer h3 {
+.project_description_contianer h3 {
   font-weight: normal;
 }
+
+.project_description_contianer p{
+  text-align: justify;
+  text-indent: 32px;
+  margin: 16px;
+}
+

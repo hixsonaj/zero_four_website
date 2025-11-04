@@ -13,7 +13,7 @@ export default function Project_Tile({projectin}){
         src={'/project_images/' + project.img + '.jpg'}
         alt={project.projectImg}
       />
-      <Link to={"/projects/" + project.page} style={{ textDecoration: 'none' }}><h3>{project.Title}</h3></Link>
+      <Link to={"/projects/" + project.Page} style={{ textDecoration: 'none' }}><h3>{project.Title}</h3></Link>
       <Outlet/>
     </div>
   );
