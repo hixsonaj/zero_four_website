@@ -32,7 +32,7 @@
       "Github":"https://github.com/hixsonaj/zero_four_website",
       "HasAdditionalLink":false,
       "Brief":"zerofour.tech acts as a personal portfolio for my projects and career in the tech industry. The website and projects pertaining to the zerofour.tech domain are ongoing projects.",
-      "Description":"zerofour.tech acts as a personal portfolio for my projects and career in the tech industry. The website and projects pertaining to the zerofour.tech domain are ongoing projects."
+      "Description":"zerofour.tech acts as a personal portfolio for my projects and career in the tech industry. The website and projects pertaining to the zerofour.tech domain are ongoing projects.\nThe website is written using React and responds well to mobile and desktop environments."
     },
     {
       "projectId":"alexhixson.com",
@@ -44,8 +44,8 @@
       "HasAdditionalLink":true,
       "AdditionalLink":"https://alexhixson.com",
       "AdditionalLinkMessage": "alexhixson.com",
-      "Brief":"A personal website for my enjoyment.",
-      "Description":"A personal website for my enjoyment."
+      "Brief":"A personal website to explore webdev and related technologies",
+      "Description":"A personal website to explore webdev and related technologies.\n One of my recent projects with the site is a message board that anyone (anyone with an access key) can write to. By sending an email to the message board email address with either an approved email or access key, a server side script with parse and store your message. Your message will then be displayed on on the front page alongside other messages.\n This project involved configuring email piping and scripting to parse the email. I also have employed several security measures to prevent injection to the database. I really enjoyed setting this up and am happy with how it turned out. Go to alexhixson.com to see product and ask about getting an access code!\n[While I do own the domain alexhixson.com, the site is hosted on a subdomain of zerofour.tech for hosting reasons. Visiting alexhixson.com will redirect you to alexhixson.zerofour.tech]"
     },
     {
       "projectId":"morsecoding",
@@ -56,7 +56,7 @@
       "Github":"https://github.com/hixsonaj/MorseCoding",
       "HasAdditionalLink":false,
       "Brief":"A coding language that could be written using only a single key.",
-      "Description":"A coding language that could be written using only a single key."
+      "Description":"MorseCoding - for people with only one key\nAdvantages\nOnly Requires one button - Thus it can be extremely useful on smaller or limited hardware.\nThe language is very lightweight and can be easily installed anywhere\nSimple, in that it can be visualized with the following tree \n0’s and 1’s\nThe language is written in only 0’s and 1’s\nThis can be done with a traditional keyboard by pressing 0 and 1\nOr, with only one key, a program will scan the key every second to determine whether a 0 or 1 should be written. Thus, it can be written with only 1 key. Sample Programs\nThe words, letters, and spaces are not interpreted, they just help with readability. The program could be written like this. But it is far less clear what it does in this form both these programs generate the same output."
     }
   ]  
 }

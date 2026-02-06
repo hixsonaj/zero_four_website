@@ -18,9 +18,9 @@ export default function Home() {
       <a href="https://github.com/hixsonaj"><FontAwesomeIcon icon={faGithub} className="Icon_GitHub" /></a>
       <a href="https://linkedin.com/in/hixsonaj"><FontAwesomeIcon icon={faLinkedin} className="Icon_Linkedin" /></a>
       <div className="Projects">
+        <h3 style={{textDecoration: 'underline'}}>Leading Projects</h3>
         <Link to={"/projects/volume_by_speed"} style={{ textDecoration: 'none' }}><h3>{"Volume by Speed"}</h3></Link>
         <h3><a href="http://alexhixson.com">alexhixson.com</a></h3>
-
       </div>
     </div>
   );
