@@ -18,7 +18,7 @@ export default function Default_Header() {
         </ul>
       </BrowserView>
       <MobileView>
-        <h2 className='Header_Title'>ZERO FOUR</h2>          
+        <Link to="/"><h1 className='Header_Title'>ZERO FOUR</h1></Link>          
         <div className='Icon_Container'>
           <button className="Header_Navigation_Toggle_Button" onClick={() => setShow(!show)}>
             {show ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
@@ -35,9 +35,9 @@ function Mobile_Navigation() {
   return (
     <div className='Mobile_Navigation_Container'>
       <ul>
-        <li><Link to="/" style={{ textDecoration: 'none' }}><h3 className='link'>Projects</h3></Link></li> {/*Not sure why style cant go in css*/}
-        <li><Link to="/" style={{ textDecoration: 'none' }}><h3 className='link'>Contact</h3></Link></li>
-        <li><Link to="/" style={{ textDecoration: 'none' }}><h3 className='link'>About</h3></Link></li>
+        <li><Link to="/projects" style={{ textDecoration: 'none' }}><h3 className='link'>Projects</h3></Link></li> {/*Not sure why style cant go in css*/}
+        <li><Link to="/about" style={{ textDecoration: 'none' }}><h3 className='link'>About</h3></Link></li>
+        <li><Link to="/contact" style={{ textDecoration: 'none' }}><h3 className='link'>Contact</h3></Link></li>
       </ul>
     </div>
 

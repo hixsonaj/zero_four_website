@@ -5,24 +5,58 @@
       "Title":"Volume By Speed",
       "Subtitle":"Andriod Mobile App",
       "Page":"volume_by_speed",
-      "img":"Volume By Speed",
-      "Description":"Volume by Speed is a mobile app designed to address the challenges of environmental noise during high-speed activities. It automatically adjusts the volume of music or audio based on the speed of your vehicle, increasing the volume as you accelerate to compensate for road and wind noise. Users can personalize the sensitivity of the app, controlling how quickly the volume increases relative to speed, ensuring a tailored audio experience. The app also features non-intrusive banner ads and occasional pop-up advertisements to support its ongoing development.\nI started working on Volume by Speed in March 2021, and after nearly a year of development, I published it to the Google Play Store in January 2022. Since its launch, the app has undergone several updates and iterations to fix bugs, introduce new features, and enhance the user experience. The latest release (version 7, 1.2.2) was rolled out in May 2023, and no additional updates are currently planned.\nAs of October 2024, Volume by Speed holds a 3.9-star rating with over 30 reviews. While the majority of feedback has been positive, highlighting the app’s usefulness, there have been several constructive criticisms pointing out areas for improvement. I’ve also received close to a dozen direct emails from users requesting new features or offering suggestions, which has been both helpful and motivating in refining the app further. User feedback has played a crucial role in driving improvements, and it’s been gratifying to see the app resonate with others.\nThe app was primarily developed in Java, which, at the time, was more familiar to me than Kotlin, the newer and more popular language for Android development. This decision stemmed from my comfort with Java and less concern about the long-term efficiency benefits of Kotlin. Volume by Speed was the largest project I had taken on up to that point, resulting in countless ‘learn by doing’ moments, from rewriting code to researching solutions as challenges arose. As a solo developer, I relied heavily on online resources, which made the development process slower but deeply educational.\nThis project has been a cornerstone of my journey in software engineering and computer science. It was the first major app I built entirely on my own, from concept to completion. Having a finished product that I, and others, find genuinely useful is incredibly rewarding. Although the app’s advertisements generate minimal revenue—about a few cents per day, totaling around $50 so far—the value of the project goes far beyond any monetary gains. It represents my growth as a developer and serves as a tangible example of my passion for creating meaningful software."
+      "HasGithub":true,
+      "Github":"https://github.com/hixsonaj/volumebyspeed",
+      "HasAdditionalLink":true,
+      "AdditionalLink":"https://play.google.com/store/apps/details?id=tech.zerofour.volumebyspeed",
+      "AdditionalLinkMessage": "View on the Google Play Store",
+      "Brief":"Volume by Speed is an Android Mobile App that will adjust the volume of the device relative to the speed it’s moving at. This technology is often found in newer cars to counteract road noise that takes away from the audio experience. My app makes this technology accessible and can be used in a variety of similar situations (ie. cycling, skiing, running).",
+      "Description":"Volume by Speed is an Android Mobile App that will adjust the volume of the device relative to the speed it’s moving at. This technology is often found in newer cars to counteract road noise that takes away from the audio experience. My app makes this technology accessible and can be used in a variety of similar situations (ie. cycling, skiing, running).\nThis project came early in my career, and because of its success, it inspired me to continue my software career at San Diego State University. This full-stack project involved creating an intuitive frontend using the tools provided by Android Studio, a back end that accessed location services and adjusted the device’s volume from the background, and connected to Googles ad service to create revenue.\nI started working on Volume by Speed in March 2021, and after nearly a year of development, I published it to the Google Play Store in January 2022. Since its launch, the app has undergone several updates and iterations to fix bugs, introduce new features, and enhance the user experience. The latest release (version 7, 1.2.2) was rolled out in May 2023, and no additional updates are currently planned. As of October 2024, Volume by Speed holds a 4.2-star rating with over 50 reviews. While the majority of feedback has been positive, highlighting the app’s usefulness, there have been several constructive criticisms pointing out areas for improvement. I’ve also received close to a dozen direct emails from users requesting new features or offering suggestions, which has been both helpful and motivating in refining the app further. User feedback has played a crucial role in driving improvements, and it’s been gratifying to see the app resonate with others.\nVolume by Speed was the largest project I had taken on up to that point, resulting in countless ‘learn by doing’ moments. As a solo developer, I relied heavily on online resources, which made the development process slower but deeply educational. This project has been a cornerstone of my journey in software engineering and computer science. It was the first major app I built entirely on my own, from concept to completion. Having a finished product that I, and others, find genuinely useful is incredibly rewarding. This project represents my growth as a developer and serves as a tangible example of my passion for creating meaningful software."
     },
     {
       "projectId":"photoSort",
       "Title":"Photo Sort",
       "Subtitle":"Python App",
       "Page":"photo_sort",
-      "img":"PhotoSort",
-      "Description":"Laborum incididunt ad deserunt consequat adipisicing nostrud ea labore. Eu ex nisi anim amet non et do exercitation. Veniam ut labore do sint. Voluptate culpa minim adipisicing non aliquip aliquip laboris reprehenderit sunt culpa incididunt ipsum. Duis deserunt dolore minim est minim est dolor nisi. Amet est enim adipisicing esse veniam quis consectetur anim eu laborum voluptate eiusmod sint non."
+      "HasGithub":false,
+      "HasAdditionalLink":false,
+      "Brief":"Photosort is a Python script to aid in sorting massive amounts of media.",
+      "Description":"Photosort is a Python script to aid in sorting massive amounts of media. The script will deconstruct file trees, then reconstruct a file tree, placing files in directories based on their timestamp and location data."
     },
     {
       "projectId":"zeroFourTechWebsite",
       "Title":"Zero Four Website",
       "Subtitle":"React Web App",
       "Page":"zero_four_website",
-      "img":"Zero Four . tech",
-      "Description":"Laborum incididunt ad deserunt consequat adipisicing nostrud ea labore. Eu ex nisi anim amet non et do exercitation. Veniam ut labore do sint. Voluptate culpa minim adipisicing non aliquip aliquip laboris reprehenderit sunt culpa incididunt ipsum. Duis deserunt dolore minim est minim est dolor nisi. Amet est enim adipisicing esse veniam quis consectetur anim eu laborum voluptate eiusmod sint non."
+      "HasGithub":true,
+      "Github":"https://github.com/hixsonaj/zero_four_website",
+      "HasAdditionalLink":false,
+      "Brief":"zerofour.tech acts as a personal portfolio for my projects and career in the tech industry. The website and projects pertaining to the zerofour.tech domain are ongoing projects.",
+      "Description":"zerofour.tech acts as a personal portfolio for my projects and career in the tech industry. The website and projects pertaining to the zerofour.tech domain are ongoing projects."
+    },
+    {
+      "projectId":"alexhixson.com",
+      "Title":"ALEXHIXSON.COM",
+      "Subtitle":"React Web App",
+      "Page":"alexhixson_com",
+      "HasGithub":true,
+      "Github":"https://github.com/hixsonaj/alexhixson.com",
+      "HasAdditionalLink":true,
+      "AdditionalLink":"https://alexhixson.com",
+      "AdditionalLinkMessage": "alexhixson.com",
+      "Brief":"A personal website for my enjoyment.",
+      "Description":"A personal website for my enjoyment."
+    },
+    {
+      "projectId":"morsecoding",
+      "Title":"MorseCoding",
+      "Subtitle":"Course Work Project",
+      "Page":"morsecoding",
+      "HasGithub":true,
+      "Github":"https://github.com/hixsonaj/MorseCoding",
+      "HasAdditionalLink":false,
+      "Brief":"A coding language that could be written using only a single key.",
+      "Description":"A coding language that could be written using only a single key."
     }
   ]  
 }

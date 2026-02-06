@@ -8,12 +8,9 @@ export default function Project_Tile({projectin}){
   const project = projectsArray.find(item => item.projectId === projectin); 
   return (
     <div className="Project_Tile_Container">
-      <img
-        className="Project_Picture"
-        src={'/project_images/' + project.img + '.jpg'}
-        alt={project.projectImg}
-      />
       <Link to={"/projects/" + project.Page} style={{ textDecoration: 'none' }}><h3>{project.Title}</h3></Link>
+      <p style={{ fontSize: '18px', paddingBottom: '6px'}}>{project.Subtitle}</p>
+      <p>{project.Brief}</p>
       <Outlet/>
     </div>
   );

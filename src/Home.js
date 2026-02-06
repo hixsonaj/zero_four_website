@@ -16,7 +16,7 @@ export default function Home() {
       <p>From Alex Hixson</p>
       <Link to={"/contact"} style={{ textDecoration: 'none' }}><FontAwesomeIcon icon={faEnvelope} className="Icon_Email" /></Link>
       <a href="https://github.com/hixsonaj"><FontAwesomeIcon icon={faGithub} className="Icon_GitHub" /></a>
-      <a href="https://linkedin.com/hixsonaj"><FontAwesomeIcon icon={faLinkedin} className="Icon_Linkedin" /></a>
+      <a href="https://linkedin.com/in/hixsonaj"><FontAwesomeIcon icon={faLinkedin} className="Icon_Linkedin" /></a>
       <div className="Projects">
         <Link to={"/projects/volume_by_speed"} style={{ textDecoration: 'none' }}><h3>{"Volume by Speed"}</h3></Link>
         <h3><a href="http://alexhixson.com">alexhixson.com</a></h3>

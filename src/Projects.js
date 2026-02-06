@@ -4,10 +4,12 @@ import './Projects.css';
 export default function Projects() {
   return (
     <div className="Browser">
-        <div className='Project_Tile_Container'>
-        <Project_Tile projectin="volumeBySpeed"/>
+        <div className='Projects_Tile_Container'>
+          <Project_Tile projectin="volumeBySpeed"/>
           <Project_Tile projectin="photoSort"/>
           <Project_Tile projectin="zeroFourTechWebsite"/>
+          <Project_Tile projectin="alexhixson.com"/>
+          <Project_Tile projectin="morsecoding"/>
         </div>
     </div>
   );

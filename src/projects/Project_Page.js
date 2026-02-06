@@ -16,8 +16,24 @@ export default function Project_page({projectin}){
       <h1>{project.Title}</h1>
       <h3>{project.Subtitle}</h3>
       <p>{descriptionWithLineBreaks}</p>
-      <a href="https://github.com/hixsonaj/VolumeBySpeed" style={{ textDecoration: 'none' }}><h3 className="link">See the Github Repository</h3></a>
-      <a href="https://play.google.com/store/apps/details?id=tech.zerofour.volumebyspeed" style={{ textDecoration: 'none' }}><h3 className="link" >View on the Google Play Store</h3></a>
+      {project.HasGithub && (
+        <a
+          href={project.Github}
+          style={{ textDecoration: 'none' }}
+          target="_blank"
+          rel="noopener noreferrer">
+        <h3 className="link">See the Github Repository</h3>
+        </a>
+      )}
+      {project.HasAdditionalLink && (
+        <a
+          href={project.AdditionalLink}
+          style={{ textDecoration: 'none' }}
+          target="_blank"
+          rel="noopener noreferrer">
+        <h3 className="link">{project.AdditionalLinkMessage}</h3>
+        </a>
+      )}
     </div>
   );
 }

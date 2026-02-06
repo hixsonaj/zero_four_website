@@ -1,12 +1,13 @@
 .Project_Tile_Container {
-  width: 38%;
+  width: -webkit-fill-available;
   display: inline-block;
-  margin: 52px;
+  margin: 20px;
 }
 
 .Project_Tile_Container h3{
   color: black; 
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 22px;
 }
   
 .Project_Tile_Container h3:hover{

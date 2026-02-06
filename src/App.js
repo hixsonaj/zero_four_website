@@ -26,6 +26,8 @@ function App() {
           <Route path="/projects/volume_by_speed" element={<Project_Page projectin="volumeBySpeed"/>}></Route>
           <Route path="/projects/photo_sort" element={<Project_Page projectin="photoSort"/>}></Route>
           <Route path="/projects/zero_four_website" element={<Project_Page projectin="zeroFourTechWebsite"/>}></Route>
+          <Route path="/projects/alexhixson_com" element={<Project_Page projectin="alexhixson.com"/>}></Route>
+          <Route path="/projects/morsecoding" element={<Project_Page projectin="morsecoding"/>}></Route>
         </Routes>
       <Footer/>
       </BrowserRouter>
