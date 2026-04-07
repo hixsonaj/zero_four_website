@@ -1,15 +1,15 @@
-.project_description_contianer {
+.project_description_container {
   margin-top: 48px;
   text-align: center;
 }
 
-.project_description_contianer h3 {
+.project_description_container h3 {
   font-weight: normal;
 }
 
-.project_description_contianer p{
+.project_description_container p{
   text-align: justify;
   text-indent: 32px;
-  margin: 16px;
+  margin: 8px;
 }
 

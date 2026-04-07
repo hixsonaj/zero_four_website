@@ -22,3 +22,13 @@
     margin-left: 12px;
     margin-bottom: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+    .Alex_Hixson {
+        float: none;
+        display: block;
+        height: auto;
+        width: 100%;
+        margin: 0 0 16px 0;
+    }
+}

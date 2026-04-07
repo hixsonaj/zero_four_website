@@ -28,6 +28,8 @@ function App() {
           <Route path="/projects/zero_four_website" element={<Project_Page projectin="zeroFourTechWebsite"/>}></Route>
           <Route path="/projects/alexhixson_com" element={<Project_Page projectin="alexhixson.com"/>}></Route>
           <Route path="/projects/morsecoding" element={<Project_Page projectin="morsecoding"/>}></Route>
+          <Route path="/projects/music_translator" element={<Project_Page projectin="musicTranslator"/>}></Route>
+          <Route path="/projects/cpuScheduling" element={<Project_Page projectin="cpuScheduling"/>}></Route>
         </Routes>
       <Footer/>
       </BrowserRouter>

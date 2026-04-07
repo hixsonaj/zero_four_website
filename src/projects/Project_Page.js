@@ -12,7 +12,7 @@ export default function Project_page({projectin}){
     </p>
   ));
   return(
-    <div className="project_description_contianer">
+    <div className="project_description_container">
       <h1>{project.Title}</h1>
       <h3>{project.Subtitle}</h3>
       <p>{descriptionWithLineBreaks}</p>

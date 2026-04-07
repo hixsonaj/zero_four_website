@@ -6,9 +6,10 @@ export default function Projects() {
     <div className="Browser">
         <div className='Projects_Tile_Container'>
           <Project_Tile projectin="volumeBySpeed"/>
-          <Project_Tile projectin="photoSort"/>
           <Project_Tile projectin="zeroFourTechWebsite"/>
           <Project_Tile projectin="alexhixson.com"/>
+          <Project_Tile projectin="musicTranslator"/>
+          <Project_Tile projectin="cpuScheduling"/>
           <Project_Tile projectin="morsecoding"/>
         </div>
     </div>

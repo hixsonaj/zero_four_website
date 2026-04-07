@@ -3,6 +3,10 @@ Footer{
   margin-top: 32px;
 }
 
+.Footer_Title_Container{
+  display: inline-block;
+}
+
 .Footer_Title{
   color: black;
 }

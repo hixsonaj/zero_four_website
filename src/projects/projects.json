@@ -56,7 +56,31 @@
       "Github":"https://github.com/hixsonaj/MorseCoding",
       "HasAdditionalLink":false,
       "Brief":"A coding language that could be written using only a single key.",
-      "Description":"MorseCoding - for people with only one key\nAdvantages\nOnly Requires one button - Thus it can be extremely useful on smaller or limited hardware.\nThe language is very lightweight and can be easily installed anywhere\nSimple, in that it can be visualized with the following tree \n0’s and 1’s\nThe language is written in only 0’s and 1’s\nThis can be done with a traditional keyboard by pressing 0 and 1\nOr, with only one key, a program will scan the key every second to determine whether a 0 or 1 should be written. Thus, it can be written with only 1 key. Sample Programs\nThe words, letters, and spaces are not interpreted, they just help with readability. The program could be written like this. But it is far less clear what it does in this form both these programs generate the same output."
+      "Description":"MorseCoding - for people with only one key\nOnly Requires one button - Thus it can be extremely useful on smaller or limited hardware.\nThe language is very lightweight and can be easily installed anywhere\nSimple, in that it can be visualized with the following tree \n0’s and 1’s\nThe language is written in only 0’s and 1’s\nThis can be done with a traditional keyboard by pressing 0 and 1\nOr, with only one key, a program will scan the key every second to determine whether a 0 or 1 should be written. Thus, it can be written with only 1 key. Sample Programs\nThe words, letters, and spaces are not interpreted, they just help with readability. The program could be written like this. But it is far less clear what it does in this form both these programs generate the same output."
+    },
+    {
+      "projectId":"musicTranslator",
+      "Title":"Music Translator",
+      "Subtitle":"Python App",
+      "Page":"music_translator",
+      "HasGithub":true,
+      "Github":"https://github.com/hixsonaj/music_translator",
+      "HasAdditionalLink":true,
+      "AdditionalLink":"https://devpost.com/software/music-translator-75fnho",
+      "AdditionalLinkMessage":"View on Devpost",
+      "Brief":"Music Translator takes any song by URL, separates vocals from instrumental, translates the lyrics to match the original syllable count and stress patterns, clones the singer's voice, and outputs a finished track in the target language.",
+      "Description":"Music is universal but language isn't. Music Translator was built to hear songs in different languages without losing the original singer's voice or feel — and to automate the hardest part: making translated lyrics actually fit the music.\nThe pipeline runs in three stages. First, yt-dlp, demucs, and Whisper handle audio separation and transcription. Second, a multi-agent loop using uAgents runs Claude Haiku for translation while syllable and stress critic agents score each line, rejecting and revising until the output meets a quality threshold. Third, ElevenLabs voice cloning and time-stretching via pyrubberband fit the translated audio back to the original timing.\nSome of the trickier challenges included Claude flagging copyrighted lyrics — fixed with prompt reframing and assistant prefill — syllable matching across languages with different natural densities, and time-stretching artifacts, which were solved with pause-aware stretching that warps only speech, not silence. Whisper cache reuse across songs was also fixed by hashing audio file contents as the cache key.\nThe result is a fully automated pipeline: URL in, translated MP3 out. The multi-agent critique loop with quantitative metrics produces genuinely singable translations that actually sound like the original singer performing in another language.\nKey takeaways: prompt framing matters enormously, multi-agent critique loops with measurable constraints outperform single-model self-evaluation, and audio time-stretching requires preserving silence structure, not just phoneme quality.\nWhat's next: better translation search with beam and sampling over candidates, prosody-aware TTS, broader language support, and a web UI."
+    },
+    {
+      "projectId":"cpuScheduling",
+      "Title":"CPU Scheduling",
+      "Subtitle":"Undergrad Class Project",
+      "Page":"cpuscheduling",
+      "HasGithub":true,
+      "Github":"https://github.com/hixsonaj/CPU-Scheduling",
+      "HasAdditionalLink":false,
+      "Brief":"-",
+      "Description":"-"
     }
   ]  
 }

@@ -14,13 +14,14 @@ export default function Home() {
       <h1>ZERO FOUR TECH</h1>
       <p>A development tool</p>
       <p>From Alex Hixson</p>
+      <a href="https://linkedin.com/in/hixsonaj"><FontAwesomeIcon icon={faLinkedin} className="Icon_Linkedin" /></a>
       <Link to={"/contact"} style={{ textDecoration: 'none' }}><FontAwesomeIcon icon={faEnvelope} className="Icon_Email" /></Link>
       <a href="https://github.com/hixsonaj"><FontAwesomeIcon icon={faGithub} className="Icon_GitHub" /></a>
-      <a href="https://linkedin.com/in/hixsonaj"><FontAwesomeIcon icon={faLinkedin} className="Icon_Linkedin" /></a>
       <div className="Projects">
         <h3 style={{textDecoration: 'underline'}}>Leading Projects</h3>
         <Link to={"/projects/volume_by_speed"} style={{ textDecoration: 'none' }}><h3>{"Volume by Speed"}</h3></Link>
-        <h3><a href="http://alexhixson.com">alexhixson.com</a></h3>
+        <Link to={"/projects/alexhixson_com"} style={{ textDecoration: 'none' }}><h3>{"alexhixson.com"}</h3></Link>
+        <Link to={"/projects/music_translator"} style={{ textDecoration: 'none' }}><h3>{"Music Translator"}</h3></Link>
       </div>
     </div>
   );
