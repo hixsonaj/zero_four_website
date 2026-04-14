@@ -18,7 +18,8 @@ export default function Home() {
       <Link to={"/contact"} style={{ textDecoration: 'none' }}><FontAwesomeIcon icon={faEnvelope} className="Icon_Email" /></Link>
       <a href="https://github.com/hixsonaj"><FontAwesomeIcon icon={faGithub} className="Icon_GitHub" /></a>
       <div className="Projects">
-        <h3 style={{textDecoration: 'underline'}}>Leading Projects</h3>
+        <a href="/Alexander_Hixson_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><h3 style={{textDecoration: 'underline'}}>Resume</h3></a>
+        <Link to={"/projects"} style={{ textDecoration: 'none' }}><h3 style={{textDecoration: 'underline'}}>Leading Projects</h3></Link>
         <Link to={"/projects/volume_by_speed"} style={{ textDecoration: 'none' }}><h3>{"Volume by Speed"}</h3></Link>
         <Link to={"/projects/alexhixson_com"} style={{ textDecoration: 'none' }}><h3>{"alexhixson.com"}</h3></Link>
         <Link to={"/projects/music_translator"} style={{ textDecoration: 'none' }}><h3>{"Music Translator"}</h3></Link>
