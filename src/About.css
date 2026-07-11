@@ -16,6 +16,16 @@
   text-decoration: underline;
 }
 
+.About_Container .Inline_Link{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.About_Container .Inline_Link:hover{
+  text-decoration: underline;
+}
+
 .Alex_Hixson {
     float: right;
     height: 320px;
