@@ -16,7 +16,7 @@ export default function About() {
       </span>
       <h4>
         <br/>
-        <a href="/Alexander_Hixson_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="/Alexander_Hixson_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a><br/>
         <a href="http://alexhixson.com">alexhixson.com</a>
         <p>Email: hixsonaj@zerofour.tech</p>
       </h4>
