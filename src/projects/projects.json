@@ -26,10 +26,10 @@
     {
       "projectId":"zeroFourTechWebsite",
       "Title":"Zero Four Website",
-      "Subtitle":"React Web App",
+      "Subtitle":"Web App",
       "Page":"zero_four_website",
       "HasGithub":true,
-      "Github":"https://github.com/hixsonaj/zero_four_website",
+      "Github":"https://github.com/hixsonaj/zerofour.tech",
       "HasAdditionalLink":false,
       "Brief":"zerofour.tech acts as a personal portfolio for my projects and career in the tech industry. The website and projects pertaining to the zerofour.tech domain are ongoing projects.",
       "Description":"zerofour.tech acts as a personal portfolio for my projects and career in the tech industry. The website and projects pertaining to the zerofour.tech domain are ongoing projects.\nThe website is written using React and responds well to mobile and desktop environments."
@@ -37,7 +37,7 @@
     {
       "projectId":"alexhixson.com",
       "Title":"ALEXHIXSON.COM",
-      "Subtitle":"React Web App",
+      "Subtitle":"Web App",
       "Page":"alexhixson_com",
       "HasGithub":true,
       "Github":"https://github.com/hixsonaj/alexhixson.com",
@@ -50,7 +50,7 @@
     {
       "projectId":"morsecoding",
       "Title":"MorseCoding",
-      "Subtitle":"Course Work Project",
+      "Subtitle":"Undergrad Course Work",
       "Page":"morsecoding",
       "HasGithub":true,
       "Github":"https://github.com/hixsonaj/MorseCoding",
@@ -74,7 +74,7 @@
     {
       "projectId":"cpuScheduling",
       "Title":"CPU Scheduling",
-      "Subtitle":"Undergrad Class Project",
+      "Subtitle":"Undergrad Course Work",
       "Page":"cpuscheduling",
       "HasGithub":true,
       "Github":"https://github.com/hixsonaj/CPU-Scheduling",
