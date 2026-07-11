@@ -1,0 +1,48 @@
+.Blog_Section {
+  clear: both;
+  padding-top: 40px;
+}
+
+.Blog_Subtitle {
+  color: #777;
+  margin-bottom: 8px;
+  padding-left: 32px;
+  font-size: 18px;
+}
+
+.Blog_Posts {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  max-width: 700px;
+}
+
+.Blog_Post {
+  border-top: 1px solid #aaa;
+  padding-top: 20px;
+}
+
+.Blog_Post:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.Blog_Post p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.Blog_Date {
+  color: #777;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.Blog_Date a {
+  color: #777;
+  text-decoration: none;
+}
+
+.Blog_Date a:hover {
+  text-decoration: underline;
+}

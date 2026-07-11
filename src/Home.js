@@ -2,6 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Blog_Section from './Blog_Section.js';
 import './Home.css';
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Link to={"/projects/volume_by_speed"} style={{ textDecoration: 'none' }}><h3>{"Volume by Speed"}</h3></Link>
         <Link to={"/projects/alexhixson_com"} style={{ textDecoration: 'none' }}><h3>{"alexhixson.com"}</h3></Link>
       </div>
+      <Blog_Section/>
     </div>
   );
 }
